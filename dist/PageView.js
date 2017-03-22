@@ -53,6 +53,11 @@ var PageView = function (_React$Component) {
             href: href,
             tabIndex: '0',
             onKeyPress: onClick },
+          _react2.default.createElement(
+            'span',
+            { className: this.props.accessibleClass },
+            this.props.accessibleText
+          ),
           this.props.page
         )
       );

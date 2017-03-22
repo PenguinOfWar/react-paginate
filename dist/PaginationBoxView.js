@@ -87,6 +87,8 @@ var PaginationBoxView = function (_Component) {
             pageClassName: _this.props.pageClassName,
             pageLinkClassName: _this.props.pageLinkClassName,
             activeClassName: _this.props.activeClassName,
+            accessibleText: _this.props.accessibleText,
+            accessibleClass: _this.props.accessibleClass,
             page: index + 1 });
         }
       } else {
