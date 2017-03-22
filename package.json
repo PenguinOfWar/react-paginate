@@ -1,6 +1,6 @@
 {
   "name": "react-paginate",
-  "version": "4.2.0",
+  "version": "4.2.1",
   "description": "A ReactJS component that creates a pagination.",
   "main": "./dist/index.js",
   "repository": {
@@ -16,6 +16,9 @@
   "author": {
     "name": "Adèle Delamarche"
   },
+  "contributors": [
+    "Darryl Walker"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/AdeleD/react-paginate/issues"
