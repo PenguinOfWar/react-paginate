@@ -24,6 +24,7 @@ export default class PageView extends React.Component {
                href={href}
                tabIndex="0"
                onKeyPress={onClick}>
+              <span className={this.props.accessibleClass}>{this.props.accessibleText}</span>
               {this.props.page}
             </a>
         </li>
